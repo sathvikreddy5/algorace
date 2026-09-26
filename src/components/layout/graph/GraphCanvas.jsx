@@ -489,6 +489,7 @@ function GraphNode({
   path,
   selected,
   dragging,
+  distance,
   onPointerDown,
 }) {
   return (
