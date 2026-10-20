@@ -5,7 +5,6 @@ export function bfs(graph, startNode, targetNode) {
 
   const visited = new Set();
   const previous = {};
-
   const steps = [];
   const queue = [];
 
@@ -78,4 +77,5 @@ export function bfs(graph, startNode, targetNode) {
   }
 
   return steps;
+  
 }
