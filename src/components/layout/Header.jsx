@@ -8,10 +8,8 @@ function Header() {
         <div className="flex h-9 w-9 items-center justify-center rounded-lg bg-white text-black">
           <Activity size={19} />
         </div>
-
         <div>
           <h1 className="text-sm font-semibold tracking-wide">AlgoRace</h1>
-
           <p className="hidden text-[11px] text-zinc-500 sm:block">
             Algorithm execution visualizer
           </p>
