@@ -14,6 +14,7 @@ function Sidebar({
   onResetGraph,
   onRun,
 }) {
+  
   return (
     <aside className="hidden w-56 shrink-0 border-r border-white/10 bg-[#0d0f12] lg:block">
       <div className="p-4">
@@ -66,6 +67,7 @@ function Sidebar({
         </div>
 
         {/* Graph */}
+        
         <div className="mb-8">
           <p className="mb-3 px-2 text-[10px] font-semibold uppercase tracking-[0.18em] text-zinc-600">
             Graph
@@ -93,6 +95,7 @@ function Sidebar({
         </div>
 
         {/* Run */}
+        
         <button
           type="button"
           onClick={onRun}
